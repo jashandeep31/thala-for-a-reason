@@ -2,7 +2,7 @@ export type thalaForAReason = {
     status: boolean;
     reason: string;
 };
-type ThalaReasonResult = {
+type thalaTestCasesTypes = {
     status: boolean;
     reason: string;
 };

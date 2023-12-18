@@ -1,9 +1,9 @@
-import thalaReasonTest from "./thalaReasonTest";
+import thalaTestCases from "./thalaTestCases";
 import { thalaForAReason } from "./types";
 
 // function is to just convert this to a string
 function thalaForAReason(string: string | Number): thalaForAReason {
-    return thalaReasonTest(String(string));
+    return thalaTestCases(String(string));
 }
 
 export = thalaForAReason;

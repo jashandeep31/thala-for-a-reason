@@ -1,11 +1,11 @@
-import { ThalaReasonResult } from "./types";
+import { thalaTestCasesTypes } from "./types";
 import findPatternsForSum from "./utils/getArrayWithSum7";
 
 function isSumOfDigitsSeven(str: string): boolean {
     return str.split("").reduce((a, b) => Number(a) + Number(b), 0) === 7;
 }
 
-function thalaReasonTest(input: string): ThalaReasonResult {
+function thalaTestCases(input: string): thalaTestCasesTypes {
     if (input.includes("7")) {
         return {
             status: true,
@@ -54,4 +54,4 @@ function thalaReasonTest(input: string): ThalaReasonResult {
     };
 }
 
-export default thalaReasonTest;
+export default thalaTestCases;
